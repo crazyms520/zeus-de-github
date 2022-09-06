@@ -53,8 +53,8 @@
 		infinite: true,
 		slidesToShow: 4,
   		slidesToScroll: 1,
-		prevArrow:"<img class='slick-prev' src='img/arrow_l.svg'>",
-      	nextArrow:"<img class='slick-next' src='img/arrow_r.svg'>",
+		prevArrow:"<img class='slick-prev' src='https://crazyms520.github.io/zeus-de-github/img/arrow_l.svg'>",
+      	nextArrow:"<img class='slick-next' src='https://crazyms520.github.io/zeus-de-github/img/arrow_r.svg'>",
 		responsive: [
 			{
 				breakpoint: 1025,
