@@ -3498,7 +3498,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
   .gift .container .gift_items .gift_item:nth-of-type(1) { margin-top: 0; } }
 .gift .container .gift_items .gift_item .card { border: 2px solid rgba(0, 0, 0, 0.125); }
 .gift .container .gift_items .gift_item .card .card-header { padding: 20px 0; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 500; letter-spacing: 1px; text-align: center; border-bottom: 2px solid rgba(0, 0, 0, 0.125); background-color: #f5b7d9; color: #4a494a; }
-@media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-header { padding: 3px 16px; font-size: 26px; line-height: normal; letter-spacing: 0.93px; } }
+@media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-header { padding: 3px 16px; font-size: 24px; line-height: normal; letter-spacing: 0.93px; } }
 .gift .container .gift_items .gift_item .card .card-header span { margin-right: .5rem; font-size: 52px; letter-spacing: 3.47px; color: #fff; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-header span { font-size: 48px; } }
 .gift .container .gift_items .gift_item .card .card-body { display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 360px; font-size: 14px; }
