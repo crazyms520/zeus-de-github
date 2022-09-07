@@ -488,7 +488,7 @@ header {
 		margin-bottom: -20px;
 		background-color: #ffef02;
 		background-size: contain;
-		background-image: url(../img/BG_wave.svg);
+		background-image: url(https://crazyms520.github.io/zeus-de-github/img/BG_wave.svg);
 
 		@include range-width(0, 451px) {
 			margin-bottom: 0;
@@ -1683,7 +1683,7 @@ header {
 							.buy_btn {
 								padding: 5px 30px;
 								border: solid 2px #edbaff;
-								font-size: 24px;
+								font-size: 20px;
 								font-weight: 500;
 								letter-spacing: 1.6px;
 								text-align: center;
@@ -2017,14 +2017,14 @@ header {
 	.container {
 
 		.offer_title {
-			font-size: 56px;
+			font-size: 45px;
 			font-weight: bold;
 			letter-spacing: 3.73px;
 			text-align: center;
 			color: #ff27c8;
 
 			@include range-width(0, 451px) {
-				font-size: 34px;
+				font-size: 28px;
 				letter-spacing: 2.27px;
 			}
 		}
@@ -2074,8 +2074,8 @@ header {
 						flex-direction: column;
 						align-items: center;
 						justify-content: center;
-						min-height: 150px;
-						font-size: 28px;
+						min-height: 120px;
+						font-size: 24px;
 						font-weight: bold;
 						letter-spacing: 1px;
 						text-align: center;
@@ -2083,6 +2083,7 @@ header {
 
 						@include range-width(0, 451px) {
 							flex-direction: row;
+							padding: 20px 0;
 							font-size: 22px;
 							line-height: 1.14;
   							letter-spacing: 0.79px;
@@ -2103,10 +2104,11 @@ header {
 
 						h2 {
 							margin-bottom: 0;
-							font-size: 28px;
+							font-size: 24px;
+							font-weight: bold;
 
 							@include range-width(0, 451px) {
-								font-size: 22px;
+								font-size: 20px;
 								line-height: 1.14;
 								letter-spacing: 0.79px;
 							}
@@ -2116,6 +2118,10 @@ header {
 					.card-body {
 						img {
 							width: 100%;
+
+							@include range-width(0, 451px) {
+								width: 80%;
+							}
 						}
 					}
 
@@ -2134,19 +2140,23 @@ header {
 						border-top: 2px solid rgba(0, 0, 0, 0.125);	
 
 						@include range-width(0, 451px) {
-							padding: 16px;
+							padding: 16px 8px;
 							font-size: 13px;
 							letter-spacing: normal;
 							min-height: 100px;
+						}
+
+						p {
+							margin-bottom: 0;
 						}
 					}
 				}
 
 				.order-btn {
 					display: inline-block;
-					margin-top: 24px;
-					padding: 10px 60px;
-					font-size: 26px;
+					margin-top: 14px;
+					padding: 3px 45px;
+					font-size: 20px;
 					font-weight: 500;
 					letter-spacing: 1.73px;
 					text-align: center;
@@ -2181,8 +2191,6 @@ header {
 				.border_purple {
 					border-color: #91689b !important;
 				}
-
-
 			}
 		}
 	}
@@ -2202,19 +2210,19 @@ header {
 	.container {
 
 		.gift_title {
-			font-size: 56px;
+			font-size: 45px;
 			font-weight: bold;
 			letter-spacing: 3.73px;
 			text-align: center;
 			color: #ff27c8;
 
 			@include range-width(0, 451px) {
-				font-size: 34px;
+				font-size: 28px;
 				letter-spacing: 2.27px;
 			}
 
 			span {
-				font-size: 64px;
+				font-size: 50px;
 
 				@include range-width(451px, 769px) {
 					display: block;
@@ -2222,8 +2230,7 @@ header {
 
 				@include range-width(0, 451px) {
 					display: block;
-					margin-bottom: .5rem;
-					font-size: 36px;
+					font-size: 32px;
 				}
 			}
 		}
@@ -2268,34 +2275,39 @@ header {
 					border: 2px solid rgba(0, 0, 0, 0.125);
 
 					.card-header {
-						padding: 20px 0;
+						padding: 10px 0;
 						display: flex;
 						align-items: center;
 						justify-content: center;
-						font-size: 28px;
-						font-weight: 500;
+						font-size: 24px;
+						font-weight: normal;
 						letter-spacing: 1px;
 						text-align: center;
-						border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+						border-bottom: 0;
 						background-color: #f5b7d9;
 						color: #4a494a;
 
 						@include range-width(0, 451px) {
 							padding: 3px 16px;
-							font-size: 24px;
+							font-size: 20px;
 							line-height: normal;
 							letter-spacing: 0.93px
 						}
 
-						span {
+						span.title_number {
 							margin-right: .5rem;
-							font-size: 52px;
+							font-size: 40px;
+							font-weight: bold;
 							letter-spacing: 3.47px;
 							color: #fff;
 
 							@include range-width(0, 451px) {
-								font-size: 48px;
+								font-size: 40px;
 							}
+						}
+
+						span.font-pops {
+							vertical-align: baseline;
 						}
 					}
 
@@ -2306,8 +2318,20 @@ header {
 						align-items: center;
 						min-height: 360px;
 						font-size: 14px;
+
+						@include range-width(0, 451px) {
+							min-height: 300px;
+						}
+
 						img {
 							width: auto;
+
+							@include range-width(0, 451px) {
+								width: auto;
+								max-width: 75%;
+								height: auto;
+								max-height: 75%;
+							}
 						}
 					}
 				}
