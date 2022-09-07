@@ -2246,6 +2246,10 @@ header {
 				img {
 					width: 100%;
 
+					@include range-width(451px, 769px) {
+						width: 70%;
+					}
+
 					@include range-width(0, 451px) {
 						width: 90%;
 					}
