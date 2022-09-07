@@ -2034,7 +2034,7 @@ header {
 				display: inline-block;
 
 				img {
-					width: 90%;
+					width: 80%;
 
 					@include range-width(0, 451px) {
 						width: 90%;
@@ -2244,7 +2244,7 @@ header {
 				display: inline-block;
 
 				img {
-					width: 90%;
+					width: 80%;
 
 					@include range-width(451px, 769px) {
 						width: 70%;
