@@ -2034,10 +2034,10 @@ header {
 				display: inline-block;
 
 				img {
-					width: 100%;
+					width: 90%;
 
 					@include range-width(0, 451px) {
-						width: 70%;
+						width: 90%;
 					}
 				}
 			}
@@ -2138,7 +2138,7 @@ header {
 							}
 
 							@include range-width(0, 451px) {
-								width: 80%;
+								width: 90%;
 							}
 						}
 					}
@@ -2244,7 +2244,7 @@ header {
 				display: inline-block;
 
 				img {
-					width: 100%;
+					width: 90%;
 
 					@include range-width(451px, 769px) {
 						width: 70%;

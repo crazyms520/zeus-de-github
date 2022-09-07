@@ -3454,8 +3454,8 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .special-offer .container .offer_title { font-size: 45px; font-weight: bold; letter-spacing: 3.73px; text-align: center; color: #ff27c8; }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_title { font-size: 28px; letter-spacing: 2.27px; } }
 .special-offer .container .offer_title picture { display: inline-block; }
-.special-offer .container .offer_title picture img { width: 100%; }
-@media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_title picture img { width: 70%; } }
+.special-offer .container .offer_title picture img { width: 90%; }
+@media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_title picture img { width: 90%; } }
 .special-offer .container .offer_items { display: flex; justify-content: space-between; margin-top: 30px; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .special-offer .container .offer_items { flex-direction: column; margin-top: 20px; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items { flex-direction: column; margin-top: 20px; } }
@@ -3474,7 +3474,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-header h2, .special-offer .container .offer_items .offer_item .card .card-header .h2 { font-size: 20px; line-height: 1.14; letter-spacing: 0.79px; } }
 .special-offer .container .offer_items .offer_item .card .card-body img { width: 90%; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .special-offer .container .offer_items .offer_item .card .card-body img { width: 50%; } }
-@media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-body img { width: 80%; } }
+@media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-body img { width: 90%; } }
 .special-offer .container .offer_items .offer_item .card .card-footer { display: flex; align-items: center; justify-content: center; padding: 20px 16px; min-height: 110px; font-size: 12px; font-weight: 500; line-height: 1.88; letter-spacing: 1px; text-align: center; color: #4a4a4a; border-top: 2px solid rgba(0, 0, 0, 0.125); }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-footer { padding: 16px 8px; font-size: 13px; letter-spacing: normal; min-height: 100px; } }
 .special-offer .container .offer_items .offer_item .card .card-footer p { margin-bottom: 0; }
@@ -3494,7 +3494,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .gift .container .gift_title { font-size: 45px; font-weight: bold; letter-spacing: 3.73px; text-align: center; color: #ff27c8; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_title { font-size: 28px; letter-spacing: 2.27px; } }
 .gift .container .gift_title picture { display: inline-block; }
-.gift .container .gift_title picture img { width: 100%; }
+.gift .container .gift_title picture img { width: 90%; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .gift .container .gift_title picture img { width: 70%; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_title picture img { width: 90%; } }
 .gift .container .gift_title span { font-size: 50px; }
