@@ -3383,11 +3383,11 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .elephant .content .slick-items .item .item_column .item_imgs { flex: 1; position: relative; width: 100%; }
 .elephant .content .slick-items .item .item_column .item_imgs > img { width: 80%; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .content .slick-items .item .item_column .item_imgs > img { width: auto; max-width: 100%; } }
-.elephant .content .slick-items .item .item_column .item_imgs .btn_more { display: flex; justify-content: space-between; align-items: center; width: 80%; margin-top: 20px; }
+.elephant .content .slick-items .item .item_column .item_imgs .btn_more { display: flex; justify-content: space-around; align-items: center; width: 80%; margin-top: 20px; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .content .slick-items .item .item_column .item_imgs .btn_more { right: 1px; } }
 .elephant .content .slick-items .item .item_column .item_imgs .btn_more.btn_w { right: 20%; }
 .elephant .content .slick-items .item .item_column .item_imgs .btn_more.btn_w img { width: 50px; height: 50px; }
-.elephant .content .slick-items .item .item_column .item_imgs .btn_more.btn_m { width: 100%; justify-content: space-around; }
+.elephant .content .slick-items .item .item_column .item_imgs .btn_more.btn_m { padding-left: 15px; width: 100%; justify-content: space-around; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .content .slick-items .item .item_column .item_imgs .btn_more.btn_m img { width: 38px; } }
 .elephant .content .slick-items .item .item_column .item_imgs .btn_more .buy_btn { padding: 5px 30px; border: solid 2px #edbaff; font-size: 20px; font-weight: 500; letter-spacing: 1.6px; text-align: center; color: #d37bf2; text-decoration: none; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .content .slick-items .item .item_column .item_imgs .btn_more .buy_btn { padding: 5px 15px; font-size: 14px; } }
@@ -3453,6 +3453,9 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .special-offer .container { max-width: 1200px; }
 .special-offer .container .offer_title { font-size: 45px; font-weight: bold; letter-spacing: 3.73px; text-align: center; color: #ff27c8; }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_title { font-size: 28px; letter-spacing: 2.27px; } }
+.special-offer .container .offer_title picture { display: inline-block; }
+.special-offer .container .offer_title picture img { width: 100%; }
+@media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_title picture img { width: 70%; } }
 .special-offer .container .offer_items { display: flex; justify-content: space-between; margin-top: 30px; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .special-offer .container .offer_items { flex-direction: column; margin-top: 20px; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items { flex-direction: column; margin-top: 20px; } }
@@ -3469,7 +3472,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .special-offer .container .offer_items .offer_item .card .card-header.text_purple { color: #91689b; }
 .special-offer .container .offer_items .offer_item .card .card-header h2, .special-offer .container .offer_items .offer_item .card .card-header .h2 { margin-bottom: 0; font-size: 20px; font-weight: bold; }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-header h2, .special-offer .container .offer_items .offer_item .card .card-header .h2 { font-size: 20px; line-height: 1.14; letter-spacing: 0.79px; } }
-.special-offer .container .offer_items .offer_item .card .card-body img { width: 80%; }
+.special-offer .container .offer_items .offer_item .card .card-body img { width: 90%; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .special-offer .container .offer_items .offer_item .card .card-body img { width: 50%; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-offer .container .offer_items .offer_item .card .card-body img { width: 80%; } }
 .special-offer .container .offer_items .offer_item .card .card-footer { display: flex; align-items: center; justify-content: center; padding: 20px 16px; min-height: 110px; font-size: 12px; font-weight: 500; line-height: 1.88; letter-spacing: 1px; text-align: center; color: #4a4a4a; border-top: 2px solid rgba(0, 0, 0, 0.125); }
@@ -3486,10 +3489,13 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 
 .gift { padding: 70px 0; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .gift { padding: 30px 0; } }
-@media screen and (max-width: 450px) and (min-width: 0) { .gift { padding: 30px 0; } }
+@media screen and (max-width: 450px) and (min-width: 0) { .gift { padding: 50px 0 30px 0; } }
 .gift .container { max-width: 1200px; }
 .gift .container .gift_title { font-size: 45px; font-weight: bold; letter-spacing: 3.73px; text-align: center; color: #ff27c8; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_title { font-size: 28px; letter-spacing: 2.27px; } }
+.gift .container .gift_title picture { display: inline-block; }
+.gift .container .gift_title picture img { width: 100%; }
+@media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_title picture img { width: 90%; } }
 .gift .container .gift_title span { font-size: 50px; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .gift .container .gift_title span { display: block; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_title span { display: block; font-size: 32px; } }
@@ -3502,7 +3508,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item { margin-top: 30px; width: 100%; }
   .gift .container .gift_items .gift_item:nth-of-type(1) { margin-top: 0; } }
 .gift .container .gift_items .gift_item .card { border: 2px solid rgba(0, 0, 0, 0.125); }
-.gift .container .gift_items .gift_item .card .card-header { padding: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: normal; letter-spacing: 1px; text-align: center; border-bottom: 0; background-color: #f5b7d9; color: #4a494a; }
+.gift .container .gift_items .gift_item .card .card-header { padding: 13px 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: bold; letter-spacing: 1px; text-align: center; border-bottom: 0; background-color: #f5b7d9; color: #4a494a; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-header { padding: 3px 16px; font-size: 20px; line-height: normal; letter-spacing: 0.93px; } }
 .gift .container .gift_items .gift_item .card .card-header:first-child { border-radius: 0; }
 .gift .container .gift_items .gift_item .card .card-header span.title_number { margin-right: .5rem; font-size: 36px; font-weight: bold; letter-spacing: 3.47px; color: #fff; }
@@ -3510,7 +3516,7 @@ header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-
 .gift .container .gift_items .gift_item .card .card-header span.font-pops { vertical-align: baseline; }
 .gift .container .gift_items .gift_item .card .card-body { display: flex; flex-direction: column; justify-content: space-around; align-items: center; min-height: 360px; font-size: 14px; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-body { min-height: 300px; } }
-.gift .container .gift_items .gift_item .card .card-body img { width: 90%; }
+.gift .container .gift_items .gift_item .card .card-body img { width: 80%; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .gift .container .gift_items .gift_item .card .card-body img { width: auto; max-width: 40%; height: auto; max-height: 40%; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-body img { width: auto; max-width: 75%; height: auto; max-height: 75%; } }
 .gift .container .gift_items .gift_item .card .card-body img.pro05 { width: 92px; }
