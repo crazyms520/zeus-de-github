@@ -3094,21 +3094,6 @@ body::selection { color: white; background-color: #78baff; }
 
 .font-pops { font-family: 'Poppins', sans-serif; }
 
-header .ShinKong { padding: 30px 60px; }
-@media screen and (max-width: 449px) and (min-width: 0) { header .ShinKong { padding: 15px 20px; } }
-header .ShinKong .ShinKong_img { padding-right: 120px; }
-@media screen and (max-width: 768px) and (min-width: 0) { header .ShinKong .ShinKong_img { padding-right: 0; } }
-header .ShinKong .ShinKong_img > img { width: 112px; height: 64px; }
-@media screen and (max-width: 450px) and (min-width: 0) { header .ShinKong .ShinKong_img > img { width: 42px; height: 24px; } }
-header .ShinKong .text_box { position: relative; width: 100%; }
-@media screen and (max-width: 450px) and (min-width: 0) { header .ShinKong .text_box { padding-top: 5px; width: 100%; height: auto; } }
-header .ShinKong .text_box .text { font-family: 'NotoSans TC', sans-serif; font-size: 30px; letter-spacing: 2.4px; color: #777575; }
-@media screen and (max-width: 1024px) and (min-width: 769px) { header .ShinKong .text_box .text { font-size: 20px; } }
-@media screen and (max-width: 768px) and (min-width: 451px) { header .ShinKong .text_box .text { font-size: 26px; } }
-@media screen and (max-width: 450px) and (min-width: 402px) { header .ShinKong .text_box .text { padding-right: 10px; font-size: 18px; font-weight: 500; letter-spacing: 1.11px; } }
-@media screen and (max-width: 401px) and (min-width: 376px) { header .ShinKong .text_box .text { padding-right: 10px; font-size: 17px; font-weight: 500; letter-spacing: 1.11px; } }
-@media screen and (max-width: 375px) and (min-width: 0) { header .ShinKong .text_box .text { padding-right: 10px; font-size: 17px; font-weight: 500; letter-spacing: 1.11px; } }
-
 .banner { background-color: #e4f543; }
 @media screen and (max-width: 768px) and (min-width: 0) { .banner { padding-top: 40px; } }
 .banner .banner_box_w picture { display: inline-block; width: 100%; opacity: 0; }
