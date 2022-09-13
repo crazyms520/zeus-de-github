@@ -14,9 +14,9 @@ $_InitGinkgo: false !global;
     $_InitGinkgo: true !global;
     * {
       &, &:after, &:before {
-        vertical-align: top;
-        @include box-sizing(border-box);
-        @include font-smoothing(subpixel-antialiased);
+        // vertical-align: top;
+        // @include box-sizing(border-box);
+        // @include font-smoothing(subpixel-antialiased);
       }
     }
   }
