@@ -2087,9 +2087,7 @@ body {
 
 					.card-body {
 
-						@include range-width(451px, 769px) {
-							text-align: center;
-						}
+						text-align: center;
 
 						img {
 							width: 90%;
