@@ -51,7 +51,7 @@
 	// slick start
 	$('.slick-items').slick({
 		infinite: true,
-		slidesToShow: 3,
+		slidesToShow: 4,
   		slidesToScroll: 1,
 		prevArrow:"<img class='slick-prev' src='https://crazyms520.github.io/zeus-de-github/img/arrow_l.svg'>",
       	nextArrow:"<img class='slick-next' src='https://crazyms520.github.io/zeus-de-github/img/arrow_r.svg'>",
