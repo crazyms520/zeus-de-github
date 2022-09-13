@@ -46,7 +46,7 @@ body::selection { color: white; background-color: #78baff; }
 @media screen and (max-width: 450px) and (min-width: 0) { .navbar .nav .nav-item span { font-size: 16px; letter-spacing: 1px; } }
 .navbar .nav .nav-item span.active { color: #ff25ae; background-color: #fff; font-weight: bolder; }
 
-.brand-origin { display: none; width: 100%; background-color: #91d9ed; }
+.brand-origin { display: none; width: 100%; background-color: #91d9ed; padding: 0; }
 .brand-origin .bo_s1 { position: relative; display: flex; align-items: center; padding-top: 60px; background-color: #ffef02; z-index: 0; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .brand-origin .bo_s1 { padding-top: 15px; flex-direction: column; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .brand-origin .bo_s1 { padding-top: 15px; flex-direction: column; } }
@@ -87,7 +87,7 @@ body::selection { color: white; background-color: #78baff; }
 .brand-origin .bo_s2 .container .name_origin > h3 > span { display: flex; justify-content: center; align-items: center; position: relative; right: 0; padding: 7px 20px; width: 180px; height: 40px; font-family: 'Noto Sans TC', sans-serif; font-size: 20px; font-weight: bold; line-height: 2.21; letter-spacing: 2px; text-align: center; color: #fff; background-color: #ff9500; }
 @media screen and (max-width: 1024px) and (min-width: 769px) { .brand-origin .bo_s2 .container .name_origin > h3 > span { display: inline-block; width: auto; height: auto; font-size: 24px; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .brand-origin .bo_s2 .container .name_origin > h3 > span { display: inline-block; width: auto; height: auto; padding: 0 30px; right: 30px; font-size: 16px; font-weight: bolder; letter-spacing: 1.43px; } }
-.brand-origin .bo_s2 .container .name_origin > p { margin-right: -100px; font-family: 'Noto Sans TC', sans-serif; font-size: 18px; font-weight: 500; line-height: 2; letter-spacing: 1px; text-align: justify; opacity: 0; color: #636363; }
+.brand-origin .bo_s2 .container .name_origin > p { font-family: 'Noto Sans TC', sans-serif; font-size: 18px; font-weight: 500; line-height: 2; letter-spacing: 1px; text-align: justify; opacity: 0; color: #636363; }
 @media screen and (max-width: 1024px) and (min-width: 769px) { .brand-origin .bo_s2 .container .name_origin > p { font-size: 16px; } }
 @media screen and (max-width: 768px) and (min-width: 451px) { .brand-origin .bo_s2 .container .name_origin > p { margin-right: 0; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .brand-origin .bo_s2 .container .name_origin > p { margin-right: 0; font-size: 14px; line-height: 1.75; letter-spacing: .9px; } }
