@@ -92,6 +92,7 @@ body::selection { color: white; background-color: #78baff; }
 @media screen and (max-width: 768px) and (min-width: 451px) { .brand-origin .bo_s2 .container .name_origin > p { margin-right: 0; } }
 @media screen and (max-width: 450px) and (min-width: 0) { .brand-origin .bo_s2 .container .name_origin > p { margin-right: 0; font-size: 14px; line-height: 1.75; letter-spacing: .9px; } }
 
+.happy-skin { padding: 0; }
 .happy-skin .hs_s1 { position: relative; background-color: #facae7; padding: 35px 0 60px 0; z-index: 1; }
 @media screen and (max-width: 450px) and (min-width: 0) { .happy-skin .hs_s1 { padding: 0 0 30px 0; } }
 .happy-skin .hs_s1 .container { max-width: 900px; padding-left: 120px; }
@@ -164,7 +165,7 @@ body::selection { color: white; background-color: #78baff; }
 @media screen and (max-width: 450px) and (min-width: 376px) { .happy-skin .hs_s1 .container .item .svg_items .svg_item .svg p .svg_br > span { font-size: 14px; } }
 @media screen and (max-width: 375px) and (min-width: 0) { .happy-skin .hs_s1 .container .item .svg_items .svg_item .svg p .svg_br > span { font-size: 14px; } }
 
-.special-feature { display: none; width: 100%; position: relative; }
+.special-feature { display: none; width: 100%; position: relative; padding: 0; }
 .special-feature .sf_s1 { padding: 28px 0 30px 0; background-color: #f6d6f7; }
 @media screen and (max-width: 450px) and (min-width: 0) { .special-feature .sf_s1 { padding: 15px 0 10px 0; } }
 .special-feature .sf_s1 .container { max-width: 1300; }
