@@ -950,11 +950,8 @@ body {
 						}
 					}
 				}
-				
-				
 			}	
 		}
-		
 	}
 }
 
@@ -1593,6 +1590,17 @@ body {
 								@include range-width(0, 451px) {
 									width: auto;
 									max-width: 100%;	
+								}
+							}
+
+							.item_img_title {
+								width: 80%;
+								margin: 8px 0;
+								font-size: 20px;
+	
+								@include range-width(0, 451px) {
+									width: 100%;
+									font-size: 14px;
 								}
 							}
 	

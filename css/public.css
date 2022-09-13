@@ -283,6 +283,8 @@ body::selection { color: white; background-color: #78baff; }
 .elephant .container .content .slick-items .item .item_column .item_imgs { flex: 1; position: relative; width: 100%; }
 .elephant .container .content .slick-items .item .item_column .item_imgs > img { width: 80%; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .container .content .slick-items .item .item_column .item_imgs > img { width: auto; max-width: 100%; } }
+.elephant .container .content .slick-items .item .item_column .item_imgs .item_img_title { width: 80%; margin: 8px 0; font-size: 20px; }
+@media screen and (max-width: 450px) and (min-width: 0) { .elephant .container .content .slick-items .item .item_column .item_imgs .item_img_title { width: 100%; font-size: 14px; } }
 .elephant .container .content .slick-items .item .item_column .item_imgs .btn_more { display: flex; justify-content: space-around; align-items: center; width: 80%; margin-top: 20px; }
 @media screen and (max-width: 450px) and (min-width: 0) { .elephant .container .content .slick-items .item .item_column .item_imgs .btn_more { right: 1px; } }
 .elephant .container .content .slick-items .item .item_column .item_imgs .btn_more.btn_w { right: 20%; }
