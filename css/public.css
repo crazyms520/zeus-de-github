@@ -425,6 +425,7 @@ body::selection { color: white; background-color: #78baff; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-body img { width: auto; max-width: 75%; height: auto; max-height: 75%; } }
 .gift .container .gift_items .gift_item .card .card-body img.pro05 { width: 92px; }
 @media screen and (max-width: 450px) and (min-width: 0) { .gift .container .gift_items .gift_item .card .card-body img.pro05 { width: 72px; } }
+.gift .container .gift_items .gift_item .card .card-body > span { text-align: center; }
 .gift .container .gift_items .gift_item .border_pink { border-color: #f5b7d9 !important; }
 
 .fade-in { animation: fade-in 1s cubic-bezier(0.65, 0, 0.35, 1) both; }
